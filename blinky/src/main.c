@@ -52,6 +52,8 @@ void button_0_handler(const struct device *dev, struct gpio_callback *cb, uint32
 // Main program
 int main(void)
 {
+	// Tekijät Taneli Rounioja ja Mikael Rounioja
+	// Tehtiin 2 pisteeseen asti (1 nappi)
 	init_led();
 	
 	int rebtn = init_button();
